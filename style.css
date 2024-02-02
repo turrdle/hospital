@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Prompt', sans-serif;
+  background-image: url('images/hospital-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+body * {
+  font-family: 'Prompt', sans-serif;
+}
+
+.main-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 600px;
+  padding: 50px;
+}
+
+h2, p {
+  color: grey;
+}
+
+.main-container hr {
+  
+}
+
+.choicesImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+img {
+  width: 200px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+img:hover {
+  border-color: red;
+}
+
+.form-area {
+  background-color: lightblue;
+  border: 3px solid darkblue;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.form-area .email,
+.form-area .password {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-area .email:hover,
+.form-area .password:hover {
+  background-color: #2b6eb1;
+}
+
+.form-area a,
+.form-area a:visited {
+  color: darkblue;
+}
+
+.form-area button {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.form-area button:hover {
+  opacity: 0.5;
+}
+
+.noAccount {
+  margin-top: 30px;
+}
